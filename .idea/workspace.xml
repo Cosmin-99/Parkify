@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parkify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Parkify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Parkify.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +75,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -73,6 +87,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1aTmxsNe7r8Ip7BJr0tKmcUdlhi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -89,20 +104,27 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/fxml" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Parkify\src\FIS\Project\Parkify\FXML" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Parkify\src\main\resources\fxml" />
+      <recent name="E:\Parkify\src\main\java\FIS\Project\Parkify" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -159,6 +181,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Parkify [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -180,6 +227,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.Parkify [install]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.Parkify [install]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,7 +259,11 @@
       <workItem from="1586903415276" duration="33000" />
       <workItem from="1587544899399" duration="120000" />
       <workItem from="1587545823834" duration="1695000" />
-      <workItem from="1587553817529" duration="260000" />
+      <workItem from="1587553817529" duration="2906000" />
+      <workItem from="1587558474479" duration="1161000" />
+      <workItem from="1587909487677" duration="6606000" />
+      <workItem from="1587916719720" duration="2928000" />
+      <workItem from="1587934512562" duration="24000" />
     </task>
     <servers />
   </component>
@@ -215,42 +275,62 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="662" y="74" key="#Inspections" timestamp="1587910501178">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="662" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1587910501178" />
+    <state x="384" y="4" key="#Parkify_[install]_(1)" timestamp="1587912008208">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="4" key="#Parkify_[install]_(1)/0.0.1536.824@0.0.1536.824" timestamp="1587912008208" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1587545964205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587545964205" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587553039374">
+    <state x="152" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587913071582">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587553039374" />
+    <state x="152" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587913071582" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1586816323628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586816323628" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587553035305">
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587913063230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587553035305" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587913063230" />
     <state x="400" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587545868386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="400" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1587545868386" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587554073116">
+    <state x="596" y="103" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1587911969833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587554073116" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587554073116">
+    <state x="596" y="103" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587911969833" />
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom" timestamp="1587931622000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587554073116" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587554073116">
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587931622000" />
+    <state width="1493" height="153" key="GridCell.Tab.0.center" timestamp="1587931622000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587554073116" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587554073116">
+    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587931622000" />
+    <state width="1493" height="153" key="GridCell.Tab.0.left" timestamp="1587931622000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587554073116" />
+    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587931622000" />
+    <state width="1493" height="153" key="GridCell.Tab.0.right" timestamp="1587931622000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587931622000" />
+    <state x="190" y="0" key="SettingsEditor" timestamp="1587916894023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587916894023" />
+    <state x="573" y="281" key="classpath-attribute-editor" timestamp="1587559711162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="281" key="classpath-attribute-editor/0.0.1536.824@0.0.1536.824" timestamp="1587559711162" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586815611339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -43,7 +43,7 @@
          <center>
             <ImageView fitHeight="644.0" fitWidth="783.0" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@../../../../../videoblocks-parking-lot-spaces-designated-area-map-pin-3-d-animation_r9lhrq8hq_thumbnail-full09.png" />
+                  <Image url="@../../../../resources/images/img1.png" />
                </image>
             </ImageView>
          </center></BorderPane>

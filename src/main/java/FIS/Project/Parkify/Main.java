@@ -18,7 +18,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Parkify");
-        primaryStage.setScene(new Scene(root, 1000, 700));
+        primaryStage.setScene(new Scene(root, 1200, 640));
         primaryStage.show();
     }
 

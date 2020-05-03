@@ -8,6 +8,7 @@ public class Manager {
 
     public Manager(String firstName, String lastName, String ID, int phoneNumber) {
         this.firstName = firstName;
+        this.lastName = lastName;
         this.ID = ID;
         this.phoneNumber = phoneNumber;
     }

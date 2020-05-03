@@ -11,10 +11,22 @@ public class RegisterScreen {
     ObservableList<String> roleList = FXCollections.observableArrayList("Driver","Manager");
 
     @FXML
-    public TextField userName;
+    public TextField firstname;
 
     @FXML
-    public PasswordField userPassword;
+    public TextField lastname;
+
+    @FXML
+    public TextField address;
+
+    @FXML
+    public TextField phonenumber;
+
+    @FXML
+    public TextField username;
+
+    @FXML
+    public PasswordField userpassword;
 
     @FXML
     public ChoiceBox registerRole;
@@ -26,7 +38,11 @@ public class RegisterScreen {
 
     @FXML
     public void LoginButtonOnClick(){
-        String username = userName.getText();
-        String password = userPassword.getText();
+        String firstName = firstname.getText();
+        String lastName = lastname.getText();
+        String Address = address.getText();
+        String phoneNumber = phonenumber.getText();
+        String userName = username.getText();
+        String password = userpassword.getText();
     }
 }

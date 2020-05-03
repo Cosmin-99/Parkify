@@ -1,5 +1,6 @@
 package FIS.Project.Parkify;
 
+import FIS.Project.Parkify.Controllers.RegisterScreen;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -44,5 +44,7 @@ public class RegisterScreen {
         String phoneNumber = phonenumber.getText();
         String userName = username.getText();
         String password = userpassword.getText();
+        String registerrole = registerRole.getValue().toString();
+        System.out.println(registerrole);
     }
 }

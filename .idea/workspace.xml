@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/DriverMenu.java" afterDir="false" />
+>>>>>>> b3dc2f8145147c512ea9aa8a7e9b8ead50c541ff
+=======
+>>>>>>> 7d37dde00b0a567d1811f20c6c9a39d54efb451e
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" afterDir="false" />
@@ -264,7 +274,9 @@
       <workItem from="1587558474479" duration="1161000" />
       <workItem from="1587909487677" duration="6606000" />
       <workItem from="1587916719720" duration="2928000" />
-      <workItem from="1587934512562" duration="24000" />
+      <workItem from="1587934512562" duration="445000" />
+      <workItem from="1588450699369" duration="254000" />
+      <workItem from="1588509114083" duration="373000" />
     </task>
     <servers />
   </component>

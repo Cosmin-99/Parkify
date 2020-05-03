@@ -2,6 +2,7 @@ package FIS.Project.Parkify.Controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.PasswordField;
@@ -46,5 +47,8 @@ public class RegisterScreen {
         String password = userpassword.getText();
         String registerrole = registerRole.getValue().toString();
         System.out.println(registerrole);
+    }
+
+    public void LoginOnClick(ActionEvent actionEvent) {
     }
 }

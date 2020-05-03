@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44607343-494d-433e-9a00-95167343ae61" name="Default Changelist" comment="">
+    <list default="true" id="b9012bde-4bd4-4919-908c-ade80c38cef7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/EnDec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/AddData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Parkify-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Parkify-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverHotelSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverHotelSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/ManagerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/ManagerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1bPlcAXBmVkgvilbobcbkFy3bey" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/fxml" />
   </component>
   <component name="RecentsManager">
@@ -42,18 +51,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Desktop\Parkify\src\main\resources\fxml" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -80,20 +77,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44607343-494d-433e-9a00-95167343ae61" name="Default Changelist" comment="" />
+      <changelist id="b9012bde-4bd4-4919-908c-ade80c38cef7" name="Default Changelist" comment="" />
       <created>1588541687161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588541687161</updated>
+      <workItem from="1588542794360" duration="616000" />
+      <workItem from="1588543608586" duration="1138000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

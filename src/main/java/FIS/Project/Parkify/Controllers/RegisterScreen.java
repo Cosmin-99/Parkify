@@ -38,15 +38,16 @@ public class RegisterScreen {
         String userName = username.getText();
         String password = userpassword.getText();
         String registerrole = registerRole.getValue().toString();
+        final String secretKey = "ssshhhhhhhhhhh!!!!";
 
         JSONObject userDetails = new JSONObject();
-        userDetails.put("FirstName: ", firstName);
-        userDetails.put("LastName: ", lastName);
-        userDetails.put("Adress: ", Address);
-        userDetails.put("Phone Number: ", phoneNumber);
-        userDetails.put("Username: ", userName);
-        userDetails.put("Password: ", password);
-        userDetails.put("Role: ", registerrole);
+        userDetails.put("FirstName ", firstName);
+        userDetails.put("LastName ", lastName);
+        userDetails.put("Adress ", Address);
+        userDetails.put("Phone Number ", phoneNumber);
+        userDetails.put("Username ", userName);
+        userDetails.put("Password ", EnDec.encrypt(password,secretKey));
+        userDetails.put("Role ", registerrole);
 
     //Add user to list
     JSONArray userList = new JSONArray();

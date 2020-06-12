@@ -103,7 +103,7 @@ public class LoginScreen {
                         e.printStackTrace();
                     }
                 } else {
-                    screenMessage.setText("Please choose your role");
+                    screenMessage.setText("Invalid credentials.");
                 }
 
             }

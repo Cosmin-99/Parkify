@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9012bde-4bd4-4919-908c-ade80c38cef7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Parkify.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" afterDir="false" />
+>>>>>>> 8b57a657e5c514af6dd6bf6345bc660530c1ac36
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +126,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591974839347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591974839347" />
     <state x="231" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591896139042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="231" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591896139042" />
+<<<<<<< HEAD
     <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1591979366516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,5 +167,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591980173607" />
+=======
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1591975769190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591975769190" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591978399470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591978399470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591978399470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591978399470" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591978399469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591978399469" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591978399470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591978399470" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1591975811928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591975811928" />
+    <state x="475" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1591977424986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="31" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591977424986" />
+>>>>>>> 8b57a657e5c514af6dd6bf6345bc660530c1ac36
   </component>
 </project>

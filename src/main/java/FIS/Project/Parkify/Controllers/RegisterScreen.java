@@ -3,12 +3,20 @@ package FIS.Project.Parkify.Controllers;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URL;
 
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -23,6 +31,9 @@ public class RegisterScreen {
 
     @FXML
     public ChoiceBox registerRole;
+
+    @FXML
+    public Text message;
 
     @FXML
     private void initialize() {
@@ -57,6 +68,13 @@ public class RegisterScreen {
 
         file.write(userList.toJSONString());
         file.flush();
+
+            URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
+
+            Stage stage = (Stage) message.getScene().getWindow();
+            Parent viewStudentsRoot = FXMLLoader.load(url);
+            Scene scene = new Scene(viewStudentsRoot, 1200, 640);
+            stage.setScene(scene);
 
     } catch (IOException e) {
         e.printStackTrace();

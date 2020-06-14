@@ -18,7 +18,9 @@ import javafx.stage.Stage;
 
 public class DriverHotelSelect {
 
-    ObservableList<String> hotelList = FXCollections.observableArrayList("Hotel Continental Arad","Hotel Continental Timisoara","Hotel Continental Oradea","Hotel Continental Bucuresti");
+    @FXML
+    private ObservableList<String> hotelList = FXCollections.observableArrayList("Hotel Continental Arad","Hotel Continental Timisoara","Hotel Continental Oradea","Hotel Continental Bucuresti");
+    private static String getHotel;
 
     @FXML
     public ChoiceBox hotelSelect;
@@ -31,11 +33,28 @@ public class DriverHotelSelect {
         hotelSelect.setItems(hotelList);
     }
 
+    public static String getHotelName(){
+        return getHotel;
+    }
+
+
+
     public void GoNext(){
-        String getHotel = hotelSelect.getValue().toString();
+        getHotel = hotelSelect.getValue().toString();
 
         if(getHotel == null || getHotel.isEmpty()){
             invalid.setText("Please select a hotel!");
+        }
+
+        try{
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/SelectParkingSpot.fxml").toURI().toURL();
+
+            Stage stage = (Stage) invalid.getScene().getWindow();
+            Parent viewStudentsRoot = FXMLLoader.load(url);
+            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+            stage.setScene(scene);
+        }catch(IOException e){
+            e.printStackTrace();
         }
     }
 

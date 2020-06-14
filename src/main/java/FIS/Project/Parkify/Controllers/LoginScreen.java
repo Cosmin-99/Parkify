@@ -24,8 +24,8 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class LoginScreen {
-
-    ObservableList<String> roleList = FXCollections.observableArrayList("Driver","Manager");
+    @FXML
+    private ObservableList<String> roleList = FXCollections.observableArrayList("Driver","Manager");
 
     @FXML
     public TextField userName;

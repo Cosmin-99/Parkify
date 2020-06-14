@@ -10,15 +10,15 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class RegisterScreen {
     ObservableList<String> roleList = FXCollections.observableArrayList("Driver","Manager");
@@ -61,13 +61,18 @@ public class RegisterScreen {
         userDetails.put("Role", registerrole);
 
     //Add user to list
-    JSONArray userList = new JSONArray();
-        userList.add(userDetails);
+        JSONParser parser = new JSONParser();
+        JSONArray userList = new JSONArray();
+        //userList.add(userDetails);
 
-        try (FileWriter file = new FileWriter("Parkify.json")) {
+        try (FileReader reader = new FileReader("Parkify.json")) {
+            Object obj = parser.parse(reader);
+            userList = (JSONArray) obj;
+            userList.add(userDetails);
 
-        file.write(userList.toJSONString());
-        file.flush();
+            FileWriter writer = new FileWriter("Parkify.json");
+            writer.write(userList.toJSONString());
+            writer.flush();
 
             URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
 
@@ -76,7 +81,7 @@ public class RegisterScreen {
             Scene scene = new Scene(viewStudentsRoot, 1200, 640);
             stage.setScene(scene);
 
-    } catch (IOException e) {
+    } catch (IOException | ParseException e) {
         e.printStackTrace();
     }
 }

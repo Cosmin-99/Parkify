@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1000.0" style="-fx-background-color: lightblue; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FIS.Project.Parkify.Controllers.SelectParkingSpot">
+    <children>
+        <Line endX="888.0" layoutX="111.0" layoutY="112.0" startX="-111.0" />
+        <Text layoutX="734.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a hotel..." wrappingWidth="209.50439453125">
+            <font>
+                <Font name="Yu Gothic UI Light" size="29.0" />
+            </font>
+        </Text>
+        <Text layoutX="75.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parkify">
+            <font>
+                <Font name="Yu Gothic UI Light" size="42.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="95.0" fitWidth="83.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../../../../resources/images/pin.png" />
+            </image>
+        </ImageView>
+        <Text layoutX="42.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Now, you can reserve a free parking spot from the list below." wrappingWidth="541.50439453125">
+            <font>
+                <Font name="Yu Gothic UI Light" size="20.0" />
+            </font>
+        </Text>
+        <Button defaultButton="true" layoutX="832.0" layoutY="566.0" mnemonicParsing="false" onAction="#reservate" prefHeight="31.0" prefWidth="91.0" text="Reservate" />
+        <Button layoutX="712.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="31.0" prefWidth="91.0" text="Back" />
+        <Button cancelButton="true" layoutX="590.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoCancel" prefHeight="31.0" prefWidth="91.0" text="Cancel" />
+      <Text fx:id="invalid" fill="RED" layoutX="75.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
+      <TableView fx:id="spotTable" layoutX="225.0" layoutY="176.0" prefHeight="361.0" prefWidth="605.0">
+        <columns>
+          <TableColumn fx:id="spotNumber" prefWidth="118.0" text="Spot Number" />
+            <TableColumn fx:id="spotFloor" prefWidth="75.0" text="Floor" />
+          <TableColumn fx:id="spotSection" minWidth="0.0" prefWidth="126.0" text="Section" />
+            <TableColumn fx:id="spotPrice" prefWidth="151.0" text="Price per hour ($)" />
+            <TableColumn fx:id="spotAvailability" prefWidth="134.0" text="Availability" />
+        </columns>
+      </TableView>
+      <TextField fx:id="inputSpot" layoutX="225.0" layoutY="566.0" />
+      <Text layoutX="225.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert desired spot number" wrappingWidth="200.6708984375" />
+    </children>
+
+</AnchorPane>

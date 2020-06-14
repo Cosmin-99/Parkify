@@ -51,8 +51,6 @@ public class LoginScreen {
         String Role = role.getValue().toString();
         final String secretKey = "ssshhhhhhhhhhh!!!!";
 
-        System.out.println(Role);// See if show the choice
-
         if(username == null || username.isEmpty()){
             screenMessage.setText("Please enter a valid username");
         }
@@ -70,23 +68,20 @@ public class LoginScreen {
                 JSONObject person = (JSONObject) o;
 
                 String Username = (String) person.get("Username");
-                System.out.println(Username);
 
                 String city = (String) person.get("Adress");
-                System.out.println(city);
 
                 String pass = (String) person.get("Password");
-                System.out.println(EnDec.decrypt(pass,secretKey));
 
                 if(username.equals(Username) && password.equals(EnDec.decrypt(pass,secretKey)) && Role.equals("Driver")){
                     //System.out.println("Success");
                     //break;
                     try{
-                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
+                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml").toURI().toURL();
 
                         Stage stage = (Stage) screenMessage.getScene().getWindow();
                         Parent viewStudentsRoot = FXMLLoader.load(url);
-                        Scene scene = new Scene(viewStudentsRoot, 1200, 640);
+                        Scene scene = new Scene(viewStudentsRoot, 1000, 640);
                         stage.setScene(scene);
                     }catch(IOException e){
                         e.printStackTrace();
@@ -97,7 +92,7 @@ public class LoginScreen {
 
                         Stage stage = (Stage) screenMessage.getScene().getWindow();
                         Parent viewStudentsRoot = FXMLLoader.load(url);
-                        Scene scene = new Scene(viewStudentsRoot, 1200, 640);
+                        Scene scene = new Scene(viewStudentsRoot, 1000, 640);
                         stage.setScene(scene);
                     }catch(IOException e){
                         e.printStackTrace();

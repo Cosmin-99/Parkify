@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38898a86-fc31-4b92-857e-380f7ac3c70d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverHotelSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/SelectParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/SelectParkingSpot.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/arad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/bucuresti.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/oradea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/timisoara.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverHotelSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverHotelSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/DriverHotelSelect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Parkify.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Parkify.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverHotelSelect.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="PAR-16" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +50,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alin Serban\Desktop\Parkify\src\main\java\FIS\Project\Parkify\FXML" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -80,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592073571596</updated>
       <workItem from="1592073573936" duration="341000" />
-      <workItem from="1592141763128" duration="2712000" />
+      <workItem from="1592141763128" duration="4482000" />
+      <workItem from="1592146601007" duration="7801000" />
     </task>
     <servers />
   </component>
@@ -88,37 +97,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1592144280617">
+    <state x="534" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592149607016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592144280617" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1592144280616">
+    <state x="534" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592149607016" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592154856621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592144280616" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1592144280616">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592154856621" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592154856621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592144280616" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1592144280616">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592154856621" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592154856621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592144280616" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1592144280617">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592154856621" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592154856621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592144280617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1592144280617">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592154856621" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1592152386208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592144280617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1592144280617">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592152386208" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1592152386208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592144280617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1592144280617">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592152386208" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1592152386208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592144280617" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592152386208" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1592152386208">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592152386208" />
+    <state x="598" y="67" key="Maven.ArtifactSearchDialog" timestamp="1592149139551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1592149139551" />
   </component>
 </project>

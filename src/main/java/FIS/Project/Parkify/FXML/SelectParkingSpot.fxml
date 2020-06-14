@@ -34,17 +34,17 @@
                 <Font name="Yu Gothic UI Light" size="20.0" />
             </font>
         </Text>
-        <Button defaultButton="true" layoutX="832.0" layoutY="566.0" mnemonicParsing="false" onAction="#Reservate" prefHeight="31.0" prefWidth="91.0" text="Reservate" />
+        <Button defaultButton="true" layoutX="832.0" layoutY="566.0" mnemonicParsing="false" onAction="#reservate" prefHeight="31.0" prefWidth="91.0" text="Reservate" />
         <Button layoutX="712.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="31.0" prefWidth="91.0" text="Back" />
         <Button cancelButton="true" layoutX="590.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoCancel" prefHeight="31.0" prefWidth="91.0" text="Cancel" />
       <Text fx:id="invalid" fill="RED" layoutX="75.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
-      <TableView layoutX="225.0" layoutY="176.0" prefHeight="361.0" prefWidth="605.0">
+      <TableView fx:id="spotTable" layoutX="225.0" layoutY="176.0" prefHeight="361.0" prefWidth="605.0">
         <columns>
-          <TableColumn prefWidth="118.0" text="Spot Number" />
-            <TableColumn prefWidth="75.0" text="Floor" />
-          <TableColumn minWidth="0.0" prefWidth="126.0" text="Section" />
-            <TableColumn prefWidth="151.0" text="Price per hour ($)" />
-            <TableColumn prefWidth="134.0" text="Availability" />
+          <TableColumn fx:id="spotNumber" prefWidth="118.0" text="Spot Number" />
+            <TableColumn fx:id="spotFloor" prefWidth="75.0" text="Floor" />
+          <TableColumn fx:id="spotSection" minWidth="0.0" prefWidth="126.0" text="Section" />
+            <TableColumn fx:id="spotPrice" prefWidth="151.0" text="Price per hour ($)" />
+            <TableColumn fx:id="spotAvailability" prefWidth="134.0" text="Availability" />
         </columns>
       </TableView>
       <TextField fx:id="inputSpot" layoutX="225.0" layoutY="566.0" />

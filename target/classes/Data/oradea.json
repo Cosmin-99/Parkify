@@ -1,14 +1,14 @@
 [
-  {"Number":"01","Floor": "0","Section": "A","Price": "4.00","Availability": "Free"},
-  {"Number":"02","Floor": "0","Section": "B","Price": "4.00","Availability": "Occupied"},
-  {"Number":"03","Floor": "0","Section": "C","Price": "4.00","Availability": "Occupied"},
-  {"Number":"04","Floor": "0","Section": "D","Price": "4.00","Availability": "Free"},
-  {"Number":"05","Floor": "0","Section": "E","Price": "4.00","Availability": "Occupied"},
-  {"Number":"06","Floor": "0","Section": "F","Price": "4.00","Availability": "Free"},
-  {"Number":"07","Floor": "1","Section": "A","Price": "3.00","Availability": "Occupied"},
-  {"Number":"08","Floor": "1","Section": "B","Price": "3.00","Availability": "Occupied"},
-  {"Number":"09","Floor": "1","Section": "C","Price": "3.00","Availability": "Occupied"},
-  {"Number":"10","Floor": "1","Section": "D","Price": "3.00","Availability": "Free"},
-  {"Number":"11","Floor": "1","Section": "E","Price": "3.00","Availability": "Occupied"},
-  {"Number":"12","Floor": "3","Section": "A","Price": "1.50","Availability": "Occupied"}
+  {"Number":1,"Floor": 0,"Section": "A","Price": 4.00,"Availability": "Free"},
+  {"Number":2,"Floor": 0,"Section": "B","Price": 4.00,"Availability": "Occupied"},
+  {"Number":3,"Floor": 0,"Section": "C","Price": 4.00,"Availability": "Occupied"},
+  {"Number":4,"Floor": 0,"Section": "D","Price": 4.00,"Availability": "Free"},
+  {"Number":5,"Floor": 0,"Section": "E","Price": 4.00,"Availability": "Occupied"},
+  {"Number":6,"Floor": 0,"Section": "F","Price": 4.00,"Availability": "Free"},
+  {"Number":7,"Floor": 1,"Section": "A","Price": 3.00,"Availability": "Occupied"},
+  {"Number":8,"Floor": 1,"Section": "B","Price": 3.00,"Availability": "Occupied"},
+  {"Number":9,"Floor": 1,"Section": "C","Price": 3.00,"Availability": "Occupied"},
+  {"Number":10,"Floor": 1,"Section": "D","Price": 3.00,"Availability": "Free"},
+  {"Number":11,"Floor": 1,"Section": "E","Price": 3.00,"Availability": "Occupied"},
+  {"Number":12,"Floor": 3,"Section": "A","Price": 1.50,"Availability": "Occupied"}
 ]

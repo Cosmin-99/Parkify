@@ -51,7 +51,7 @@ public class DriverHotelSelect {
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
-            Scene scene = new Scene(viewStudentsRoot, 1200, 640);
+            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
             stage.setScene(scene);
         }catch(IOException e){
             e.printStackTrace();

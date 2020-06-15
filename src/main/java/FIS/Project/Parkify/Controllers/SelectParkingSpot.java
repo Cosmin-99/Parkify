@@ -46,7 +46,9 @@ public class SelectParkingSpot {
     @FXML
     public TableColumn<Spot, String> spotAvailability;
 
-    private ObservableList<Spot> spots = FXCollections.observableArrayList();
+    private static ObservableList<Spot> spots = FXCollections.observableArrayList();
+    private static int spotInput;
+    private static String getSpot;
 
     @FXML
     public void initialize(){
@@ -89,10 +91,30 @@ public class SelectParkingSpot {
 
     public void reservate(){
 
-        String getSpot = inputSpot.getText();
+          getSpot = inputSpot.getText();
 
         if(getSpot == null || getSpot.isEmpty()){
             invalid.setText("Invalid spot number or occupied");
+        } else {
+
+             spotInput = Integer.parseInt(getSpot);
+
+            if(spots.get(spotInput - 1).getAvailability().equals("Free")) {
+
+                try{
+                    URL url = new File("src/main/java/FIS/Project/Parkify/FXML/RequestSent.fxml").toURI().toURL();
+
+                    Stage stage = (Stage) invalid.getScene().getWindow();
+                    Parent viewStudentsRoot = FXMLLoader.load(url);
+                    Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+                    stage.setScene(scene);
+                }catch(IOException e){
+                    e.printStackTrace();
+                }
+
+            } else{
+                invalid.setText("You can't access this spot , you're next after George Floyd");
+            }
         }
     }
 
@@ -112,5 +134,13 @@ public class SelectParkingSpot {
 
     public void GoCancel(){
         Platform.exit();
+    }
+
+    public static ObservableList<Spot> getSpots() {
+        return spots;
+    }
+
+    public static int getSpotInput() {
+        return spotInput;
     }
 }

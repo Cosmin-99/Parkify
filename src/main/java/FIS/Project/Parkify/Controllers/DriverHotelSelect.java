@@ -20,6 +20,7 @@ public class DriverHotelSelect {
 
     @FXML
     private ObservableList<String> hotelList = FXCollections.observableArrayList("Hotel Continental Arad","Hotel Continental Timisoara","Hotel Continental Oradea","Hotel Continental Bucuresti");
+
     private static String getHotel;
 
     @FXML

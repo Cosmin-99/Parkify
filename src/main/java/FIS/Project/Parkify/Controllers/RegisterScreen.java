@@ -74,7 +74,7 @@ public class RegisterScreen {
             writer.write(userList.toJSONString());
             writer.flush();
 
-            URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/Login.fxml").toURI().toURL();
 
             Stage stage = (Stage) message.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);

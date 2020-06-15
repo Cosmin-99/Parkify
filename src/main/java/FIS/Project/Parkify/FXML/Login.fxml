@@ -51,7 +51,7 @@
          <center>
             <ImageView fitHeight="644.0" fitWidth="783.0" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@../../../../resources/images/img1.png" />
+                  <Image url="@../../../../../../../resources/images/img1.png" />
                </image>
             </ImageView>
          </center></BorderPane>

@@ -77,7 +77,7 @@ public class LoginScreen {
                     //System.out.println("Success");
                     //break;
                     try{
-                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml").toURI().toURL();
+                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 
                         Stage stage = (Stage) screenMessage.getScene().getWindow();
                         Parent viewStudentsRoot = FXMLLoader.load(url);

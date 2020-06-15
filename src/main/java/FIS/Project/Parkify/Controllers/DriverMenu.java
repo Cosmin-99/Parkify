@@ -8,47 +8,26 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.management.PlatformLoggingMXBean;
 import java.net.URL;
 
-import javafx.stage.Stage;
-
-public class DriverHotelSelect {
-
-    @FXML
-    private ObservableList<String> hotelList = FXCollections.observableArrayList("Hotel Continental Arad","Hotel Continental Timisoara","Hotel Continental Oradea","Hotel Continental Bucuresti");
-
-    private static String getHotel;
-
-    @FXML
-    public ChoiceBox hotelSelect;
+public class DriverMenu {
 
     @FXML
     public Text invalid;
 
     @FXML
-    private void initialize() {
-        hotelSelect.setItems(hotelList);
-    }
-
-    public static String getHotelName(){
-        return getHotel;
-    }
-
-
-
-    public void GoNext(){
-        getHotel = hotelSelect.getValue().toString();
-
-        if(getHotel == null || getHotel.isEmpty()){
-            invalid.setText("Please select a hotel!");
-        }
+    public void chooseHotel(){
 
         try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/SelectParkingSpot.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
@@ -59,20 +38,40 @@ public class DriverHotelSelect {
         }
     }
 
+    @FXML
+    public void viewReservations(){
+
+        try{
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml").toURI().toURL();
+
+            Stage stage = (Stage) invalid.getScene().getWindow();
+            Parent viewStudentsRoot = FXMLLoader.load(url);
+            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+            stage.setScene(scene);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
     public void GoBack(){
+
         try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/Login.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
-            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+            Scene scene = new Scene(viewStudentsRoot, 1200, 640);
             stage.setScene(scene);
         }catch(IOException e){
             e.printStackTrace();
         }
     }
 
+    @FXML
     public void GoCancel(){
+
         Platform.exit();
+
     }
 }

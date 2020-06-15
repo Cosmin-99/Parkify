@@ -12,25 +12,16 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-public class RequestSent {
+public class DriverRequests {
 
     @FXML
-    public Text finalMessage;
-
-    @FXML
-    public void initialize(){
-        finalMessage.setText("The parking spot with number " + SelectParkingSpot.getSpotInput() +
-                ", at the floor " + SelectParkingSpot.getSpots().get(SelectParkingSpot.getSpotInput()).getFloor() +
-                ", section " + SelectParkingSpot.getSpots().get(SelectParkingSpot.getSpotInput()).getSection() +
-                " has been requested. \n\nWait for confirmation from the manager! \n\nSee status in 'View Reqests'.");
-    }
-
+    public Text invalid;
 
     public void GoBack(){
         try{
             URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 
-            Stage stage = (Stage) finalMessage.getScene().getWindow();
+            Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
             Scene scene = new Scene(viewStudentsRoot, 1000, 640);
             stage.setScene(scene);
@@ -39,7 +30,7 @@ public class RequestSent {
         }
     }
 
-    public void GoFinish(){
+    public void GoCancel(){
         Platform.exit();
     }
 }

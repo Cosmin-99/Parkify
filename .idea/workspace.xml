@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38898a86-fc31-4b92-857e-380f7ac3c70d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RequestSent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/RequestSent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/ManagerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/ViewDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/ViewDriver.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverHotelSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/DriverHotelSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/SelectParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/SelectParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/SelectParkingSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/SelectParkingSpot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RegisterScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RequestSent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Controllers/RequestSent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/ManagerMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/ManagerMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/RequestSent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/RequestSent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/DriverMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/Users/ManagerMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/DriverHotelSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/DriverHotelSelect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/LoginScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RegisterScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RequestSent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Controllers/RequestSent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/DriverMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FIS/Project/Parkify/Users/ManagerMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="PAR-20" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,22 +61,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1dJSZaD5FqJo2wGbGr2Iur2Yvw4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/SceneBuilder/SceneBuilder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/FIS/Project/Parkify/FXML" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Parkify\src\main\java\FIS\Project\Parkify\FXML" />
       <recent name="C:\Users\Alin Serban\Desktop\Parkify\src\main\java\FIS\Project\Parkify\FXML" />
+      <recent name="E:\Parkify\src\main\java\FIS\Project\Parkify\FXML" />
     </key>
   </component>
   <component name="RunManager">
@@ -91,13 +119,22 @@
       <workItem from="1592155425864" duration="1187000" />
       <workItem from="1592157349551" duration="57000" />
       <workItem from="1592163121583" duration="5198000" />
+      <workItem from="1592240442279" duration="2009000" />
+      <workItem from="1592242465358" duration="763000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592238016196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592238016196" />
     <state x="534" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592149607016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -106,26 +143,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592233382073" />
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592240190404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="297" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1592240190404" />
     <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1592231531742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592231531742" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592234940552">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592243329099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592234940552" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592234940551">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592243329099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592243329099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592234940551" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592234940551">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592243329099" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592243329098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592234940551" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592234940552">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592243329098" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592243329099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592234940552" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592243329099" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1592230138322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

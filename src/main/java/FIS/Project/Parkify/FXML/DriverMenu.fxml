@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="640.0" prefWidth="1000.0" style="-fx-background-color: lightblue; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FIS.Project.Parkify.Controllers.ManagerMenu">
+<AnchorPane prefHeight="640.0" prefWidth="1000.0" style="-fx-background-color: lightblue; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FIS.Project.Parkify.Controllers.DriverMenu">
     <children>
         <Line endX="888.0" layoutX="111.0" layoutY="112.0" startX="-111.0" />
         <Text layoutX="860.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="75.50439453125">
@@ -29,14 +29,13 @@
         <Button layoutX="852.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="31.0" prefWidth="91.0" text="Back" />
         <Button cancelButton="true" layoutX="743.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoCancel" prefHeight="31.0" prefWidth="91.0" text="Cancel" />
       <Text fx:id="invalid" fill="RED" layoutX="83.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
-      <Button layoutX="383.0" layoutY="293.0" mnemonicParsing="false" onAction="#viewDriverDetails" prefHeight="31.0" prefWidth="208.0" text="View details for drivers" />
-      <Button layoutX="383.0" layoutY="352.0" mnemonicParsing="false" onAction="#viewRequests" prefHeight="31.0" prefWidth="208.0" text="View reservation requests" />
-      <Text layoutX="197.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome! What do you want to do next?" wrappingWidth="606.50439453125">
+      <Button layoutX="383.0" layoutY="293.0" mnemonicParsing="false" onAction="#chooseHotel" prefHeight="31.0" prefWidth="208.0" text="Choose a hotel" />
+      <Button layoutX="383.0" layoutY="357.0" mnemonicParsing="false" onAction="#viewReservations" prefHeight="31.0" prefWidth="208.0" text="View reservation requests" />
+      <Text layoutX="232.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome! What do you want to do?" wrappingWidth="534.50439453125">
          <font>
             <Font name="Yu Gothic UI Light" size="35.0" />
          </font>
       </Text>
-      <Button layoutX="383.0" layoutY="408.0" mnemonicParsing="false" onAction="#addSpot" prefHeight="31.0" prefWidth="208.0" text="Add parking spots" />
     </children>
 
 </AnchorPane>

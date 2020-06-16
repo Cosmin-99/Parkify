@@ -36,6 +36,11 @@
             <Font name="Yu Gothic UI Light" size="35.0" />
          </font>
       </Text>
+      <Text fx:id="noRequests" layoutX="306.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="385.0000120997429">
+         <font>
+            <Font name="Segoe UI Semibold" size="20.0" />
+         </font>
+      </Text>
     </children>
 
 </AnchorPane>

@@ -24,6 +24,9 @@ public class DriverMenu {
     public Text invalid;
 
     @FXML
+    public Text noRequests;
+
+    @FXML
     public void chooseHotel(){
 
         try{
@@ -41,15 +44,21 @@ public class DriverMenu {
     @FXML
     public void viewReservations(){
 
-        try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml").toURI().toURL();
+        String requestFile = "src/main/resources/Requests/" + LoginScreen.getUsername() + ".json";
+        File check = new File(requestFile);
+        if(check.exists()){
+            try{
+                URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml").toURI().toURL();
 
-            Stage stage = (Stage) invalid.getScene().getWindow();
-            Parent viewStudentsRoot = FXMLLoader.load(url);
-            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
-            stage.setScene(scene);
-        }catch(IOException e){
-            e.printStackTrace();
+                Stage stage = (Stage) invalid.getScene().getWindow();
+                Parent viewStudentsRoot = FXMLLoader.load(url);
+                Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+                stage.setScene(scene);
+            }catch(IOException e){
+                e.printStackTrace();
+            }
+        } else {
+            noRequests.setText("You have no resevation requests.");
         }
     }
 

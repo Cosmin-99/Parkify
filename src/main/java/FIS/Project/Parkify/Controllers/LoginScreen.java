@@ -74,8 +74,7 @@ public class LoginScreen {
                 String pass = (String) person.get("Password");
 
                 if(username.equals(Username) && password.equals(EnDec.decrypt(pass,secretKey)) && Role.equals("Driver")){
-                    //System.out.println("Success");
-                    //break;
+
                     try{
                         URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 

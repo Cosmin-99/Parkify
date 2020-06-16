@@ -32,7 +32,7 @@ public class ManagerMenu {
         }
     }
 
-    /*@FXML
+    @FXML
     public void viewRequests(){
 
         try{
@@ -60,7 +60,7 @@ public class ManagerMenu {
         }catch(IOException e){
             e.printStackTrace();
         }
-    }*/
+    }
 
 
     @FXML

@@ -83,7 +83,7 @@ public class SelectParkingSpot {
 
     public void reservate(){
 
-          String getSpot = inputSpot.getText();
+        String getSpot = inputSpot.getText();
 
         if(getSpot == null || getSpot.isEmpty()){
             invalid.setText("Invalid spot number or occupied");

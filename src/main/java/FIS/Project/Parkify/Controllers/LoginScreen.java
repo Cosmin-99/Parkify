@@ -22,6 +22,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import sun.security.krb5.internal.PAData;
 
 public class LoginScreen {
     @FXML
@@ -37,11 +38,11 @@ public class LoginScreen {
     public Text screenMessage;
 
     @FXML
-    public ChoiceBox role;
+    public ChoiceBox rol;
 
     @FXML
     private void initialize() {
-        role.setItems(roleList);
+        rol.setItems(roleList);
     }
 
     private static String getUser;
@@ -50,7 +51,7 @@ public class LoginScreen {
     public void LoginButtonOnClick(){
         String username = userName.getText();
         String password = userPassword.getText();
-        String Role = role.getValue().toString();
+        String role = rol.getValue().toString();
         final String secretKey = "ssshhhhhhhhhhh!!!!";
 
         if(username == null || username.isEmpty()){
@@ -61,7 +62,7 @@ public class LoginScreen {
             screenMessage.setText("Please enter a valid password");
         }
 
-            JSONParser parser = new JSONParser();
+        JSONParser parser = new JSONParser();
 
         try {
             JSONArray a = (JSONArray) parser.parse(new FileReader("Parkify.json"));
@@ -70,45 +71,40 @@ public class LoginScreen {
                 JSONObject person = (JSONObject) o;
 
                 String Username = (String) person.get("Username");
+                String Password = (String) person.get("Password");
+                String Role = (String) person.get("Role");
 
-                String city = (String) person.get("Adress");
+                if(username.equals(Username) && password.equals(EnDec.decrypt(Password,secretKey)) && role.equals(Role)){
 
-                String pass = (String) person.get("Password");
+                    if(Role.equals("Driver")){
+                        getUser = Username;
+                        try{
+                            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 
-                if(username.equals(Username) && password.equals(EnDec.decrypt(pass,secretKey)) && Role.equals("Driver")){
-
-                    getUser = Username;
-                    try{
-                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
-
-                        Stage stage = (Stage) screenMessage.getScene().getWindow();
-                        Parent viewStudentsRoot = FXMLLoader.load(url);
-                        Scene scene = new Scene(viewStudentsRoot, 1000, 640);
-                        stage.setScene(scene);
-                    }catch(IOException e){
-                        e.printStackTrace();
+                            Stage stage = (Stage) screenMessage.getScene().getWindow();
+                            Parent viewStudentsRoot = FXMLLoader.load(url);
+                            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+                            stage.setScene(scene);
+                        }catch(IOException e){
+                            e.printStackTrace();
+                        }
                     }
-                } else if(username.equals(Username) && password.equals(EnDec.decrypt(pass,secretKey)) && Role.equals("Manager")){
-                    try{
-                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ManagerMenu.fxml").toURI().toURL();
+                    if(Role.equals("Manager")) {
+                        try {
+                            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ManagerMenu.fxml").toURI().toURL();
 
-                        Stage stage = (Stage) screenMessage.getScene().getWindow();
-                        Parent viewStudentsRoot = FXMLLoader.load(url);
-                        Scene scene = new Scene(viewStudentsRoot, 1000, 640);
-                        stage.setScene(scene);
-                    }catch(IOException e){
-                        e.printStackTrace();
+                            Stage stage = (Stage) screenMessage.getScene().getWindow();
+                            Parent viewStudentsRoot = FXMLLoader.load(url);
+                            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
+                            stage.setScene(scene);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
-                } else {
-                    screenMessage.setText("Invalid credentials.");
                 }
-
+                screenMessage.setText("Invalid credentials.");
             }
-        }catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+        }catch (IOException | ParseException e) {
             e.printStackTrace();
         }
 

@@ -28,7 +28,7 @@
             <AnchorPane prefHeight="200.0" prefWidth="415.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
                <children>
                   <TextField fx:id="phonenumber" layoutX="216.0" layoutY="226.0" prefHeight="33.0" prefWidth="176.0" promptText="Phone Number" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
-                  <Button layoutX="172.0" layoutY="518.0" mnemonicParsing="false" onAction="#LoginButtonOnClick" prefHeight="26.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="Register" />
+                  <Button layoutX="172.0" layoutY="518.0" mnemonicParsing="false" onAction="#RegisterButtonOnClick" prefHeight="26.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="Register" />
                   <PasswordField fx:id="userpassword" layoutX="122.0" layoutY="344.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
                   <ChoiceBox fx:id="registerRole" layoutX="115.0" layoutY="424.0" prefHeight="31.0" prefWidth="201.0" />
                   <Label layoutX="122.0" layoutY="400.0" text="Choose your role" />

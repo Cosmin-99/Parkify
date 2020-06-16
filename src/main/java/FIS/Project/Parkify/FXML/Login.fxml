@@ -41,7 +41,7 @@
                         <Font name="Forte" size="21.0" />
                      </font>
                   </TextField>
-                  <ChoiceBox fx:id="role" layoutX="115.0" layoutY="419.0" prefHeight="31.0" prefWidth="201.0" />
+                  <ChoiceBox fx:id="rol" layoutX="115.0" layoutY="419.0" prefHeight="31.0" prefWidth="201.0" />
                   <Label layoutX="122.0" layoutY="390.0" text="Choose your role" />
                   <Hyperlink layoutX="107.0" layoutY="545.0" onAction="#GoToRegister" text="Don't have an account? Sign Up" />
                   <Text fx:id="screenMessage" layoutX="81.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="274.6708984375" />

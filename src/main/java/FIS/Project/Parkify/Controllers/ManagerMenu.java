@@ -36,7 +36,7 @@ public class ManagerMenu {
     public void viewRequests(){
 
         try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ViewRequests.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
@@ -51,7 +51,7 @@ public class ManagerMenu {
     public void addSpot(){
 
         try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverRequests.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ManagerHotelSelect.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);

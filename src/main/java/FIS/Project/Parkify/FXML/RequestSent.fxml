@@ -26,9 +26,9 @@
                 <Image url="@../../../../../../../resources/images/pin.png" />
             </image>
         </ImageView>
-        <Text layoutX="83.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Request sent !" wrappingWidth="435.50439453125">
+        <Text layoutX="83.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Request sent!" wrappingWidth="435.50439453125">
             <font>
-                <Font name="Yu Gothic UI Light" size="20.0" />
+                <Font name="Yu Gothic UI Light" size="27.0" />
             </font>
         </Text>
         <Button cancelButton="true" layoutX="839.0" layoutY="564.0" mnemonicParsing="false" onAction="#GoFinish" prefHeight="31.0" prefWidth="91.0" text="Finish" />

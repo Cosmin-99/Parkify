@@ -60,7 +60,6 @@ public class RegisterScreen {
         userDetails.put("Password", EnDec.encrypt(password,secretKey));
         userDetails.put("Role", registerrole);
 
-    //Add user to list
         JSONParser parser = new JSONParser();
         JSONArray userList = new JSONArray();
 

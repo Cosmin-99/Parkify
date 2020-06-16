@@ -41,7 +41,7 @@ public class RegisterScreen {
     }
 
     @FXML
-    public void LoginButtonOnClick() throws IOException {
+    public void RegisterButtonOnClick() {
         String firstName = firstname.getText();
         String lastName = lastname.getText();
         String Address = address.getText();

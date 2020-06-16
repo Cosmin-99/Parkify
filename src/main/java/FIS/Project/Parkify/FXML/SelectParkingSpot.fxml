@@ -37,7 +37,7 @@
         <Button defaultButton="true" layoutX="832.0" layoutY="566.0" mnemonicParsing="false" onAction="#reservate" prefHeight="31.0" prefWidth="91.0" text="Reservate" />
         <Button layoutX="712.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="31.0" prefWidth="91.0" text="Back" />
         <Button cancelButton="true" layoutX="590.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoCancel" prefHeight="31.0" prefWidth="91.0" text="Cancel" />
-      <Text fx:id="invalid" fill="RED" layoutX="75.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
+      <Text fx:id="invalid" fill="RED" layoutX="225.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
       <TableView fx:id="spotTable" layoutX="225.0" layoutY="176.0" prefHeight="361.0" prefWidth="605.0">
         <columns>
           <TableColumn fx:id="spotNumber" prefWidth="118.0" text="Spot Number" />

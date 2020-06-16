@@ -61,11 +61,11 @@ public class DriverHotelSelect {
 
     public void GoBack(){
         try{
-            URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
-            Scene scene = new Scene(viewStudentsRoot, 1200, 640);
+            Scene scene = new Scene(viewStudentsRoot, 1000, 640);
             stage.setScene(scene);
         }catch(IOException e){
             e.printStackTrace();

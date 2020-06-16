@@ -48,7 +48,6 @@ public class SelectParkingSpot {
 
     private static ObservableList<Spot> spots = FXCollections.observableArrayList();
     private static int spotInput;
-    private static String getSpot;
 
     @FXML
     public void initialize(){
@@ -58,9 +57,8 @@ public class SelectParkingSpot {
         spotPrice.setCellValueFactory(new PropertyValueFactory<>("Price"));
         spotAvailability.setCellValueFactory(new PropertyValueFactory<>("Availability"));
 
-        String hotelName = DriverHotelSelect.getHotelName();
-        String hotelPath = hotelName.substring(18);
-        hotelPath = "src/main/resources/Data/" + hotelPath.toLowerCase() + ".json";
+
+        String hotelPath = "src/main/resources/Data/" + DriverHotelSelect.getHotelName().substring(18).toLowerCase() + ".json";
 
         JSONParser parser = new JSONParser();
         try{
@@ -75,13 +73,7 @@ public class SelectParkingSpot {
                 String availability = (String) spot.get("Availability");
                 spots.add(new Spot(number,floor,section,price,availability));
             }
-
-
-        }catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+        } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
 
@@ -91,7 +83,7 @@ public class SelectParkingSpot {
 
     public void reservate(){
 
-          getSpot = inputSpot.getText();
+          String getSpot = inputSpot.getText();
 
         if(getSpot == null || getSpot.isEmpty()){
             invalid.setText("Invalid spot number or occupied");
@@ -113,7 +105,7 @@ public class SelectParkingSpot {
                 }
 
             } else{
-                invalid.setText("You can't access this spot , you're next after George Floyd");
+                invalid.setText("This parking spot is occupied");
             }
         }
     }

@@ -1,7 +1,5 @@
 package FIS.Project.Parkify.Controllers;
 
-import java.util.Objects;
-
 public class Spot {
     private long number;
     private long floor;
@@ -18,11 +16,6 @@ public class Spot {
     }
 
     @Override
-    public String toString() {
-        return "Spot: " + number + ", Floor: " + floor + ", Section: " + section + ", Price per hour: " + price + ", " + availability;
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -32,11 +25,6 @@ public class Spot {
                 section.equals(spot.section) &&
                 Double.compare(spot.price, price) == 0 &&
                 availability.equals(spot.availability);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(number, floor, section, price, availability);
     }
 
     public long getNumber() {

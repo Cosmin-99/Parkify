@@ -41,7 +41,7 @@ public class RegisterScreen {
     }
 
     @FXML
-    public void LoginButtonOnClick(){
+    public void LoginButtonOnClick() throws IOException {
         String firstName = firstname.getText();
         String lastName = lastname.getText();
         String Address = address.getText();
@@ -60,29 +60,36 @@ public class RegisterScreen {
         userDetails.put("Password", EnDec.encrypt(password,secretKey));
         userDetails.put("Role", registerrole);
 
-    //Add user to list
         JSONParser parser = new JSONParser();
         JSONArray userList = new JSONArray();
-        //userList.add(userDetails);
 
-        try (FileReader reader = new FileReader("Parkify.json")) {
-            Object obj = parser.parse(reader);
-            userList = (JSONArray) obj;
-            userList.add(userDetails);
+        try {
+            File check = new File("Parkify.json");
+            if(check.exists()){
+                FileReader reader = new FileReader("Parkify.json");
+                Object obj = parser.parse(reader);
+                userList = (JSONArray) obj;
+                userList.add(userDetails);
 
-            FileWriter writer = new FileWriter("Parkify.json");
-            writer.write(userList.toJSONString());
-            writer.flush();
+                FileWriter writer = new FileWriter("Parkify.json");
+                writer.write(userList.toJSONString());
+                writer.flush();
+            } else {
+                FileWriter writer = new FileWriter("Parkify.json");
+                userList.add(userDetails);
+                writer.write(userList.toJSONString());
+                writer.flush();
+            }
 
-            URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/Login.fxml").toURI().toURL();
 
             Stage stage = (Stage) message.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);
             Scene scene = new Scene(viewStudentsRoot, 1200, 640);
             stage.setScene(scene);
 
-    } catch (IOException | ParseException e) {
-        e.printStackTrace();
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
     }
-}
 }

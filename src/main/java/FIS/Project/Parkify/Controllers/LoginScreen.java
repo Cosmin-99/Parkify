@@ -44,6 +44,8 @@ public class LoginScreen {
         role.setItems(roleList);
     }
 
+    private static String getUser;
+
     @FXML
     public void LoginButtonOnClick(){
         String username = userName.getText();
@@ -74,10 +76,10 @@ public class LoginScreen {
                 String pass = (String) person.get("Password");
 
                 if(username.equals(Username) && password.equals(EnDec.decrypt(pass,secretKey)) && Role.equals("Driver")){
-                    //System.out.println("Success");
-                    //break;
+
+                    getUser = Username;
                     try{
-                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverHotelSelect.fxml").toURI().toURL();
+                        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/DriverMenu.fxml").toURI().toURL();
 
                         Stage stage = (Stage) screenMessage.getScene().getWindow();
                         Parent viewStudentsRoot = FXMLLoader.load(url);
@@ -126,4 +128,7 @@ public class LoginScreen {
         }
     }
 
+    public static String getUsername(){
+        return getUser;
+    }
 }

@@ -15,7 +15,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        URL url = new File("src/main/resources/fxml/sample.fxml").toURI().toURL();
+        URL url = new File("src/main/java/FIS/Project/Parkify/FXML/Login.fxml").toURI().toURL();
 
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Parkify");

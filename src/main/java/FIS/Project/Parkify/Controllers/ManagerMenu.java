@@ -21,7 +21,7 @@ public class ManagerMenu {
     public void viewDriverDetails(){
 
         try{
-            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ViewDriver.fxml").toURI().toURL();
+            URL url = new File("src/main/java/FIS/Project/Parkify/FXML/ViewDriverDetails.fxml").toURI().toURL();
 
             Stage stage = (Stage) invalid.getScene().getWindow();
             Parent viewStudentsRoot = FXMLLoader.load(url);

@@ -30,8 +30,8 @@
         <Button cancelButton="true" layoutX="743.0" layoutY="566.0" mnemonicParsing="false" onAction="#GoCancel" prefHeight="31.0" prefWidth="91.0" text="Cancel" />
       <Text fx:id="invalid" fill="RED" layoutX="83.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="299.6708984375" />
       <Button layoutX="383.0" layoutY="293.0" mnemonicParsing="false" onAction="#viewDriverDetails" prefHeight="31.0" prefWidth="208.0" text="View details for drivers" />
-      <Button layoutX="383.0" layoutY="352.0" mnemonicParsing="false" onAction="#viewRequests" prefHeight="31.0" prefWidth="208.0" text="View reservation requests" />
-      <Text layoutX="197.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome! What do you want to do next?" wrappingWidth="606.50439453125">
+      <Button layoutX="383.0" layoutY="349.0" mnemonicParsing="false" onAction="#viewRequests" prefHeight="31.0" prefWidth="208.0" text="View reservation requests" />
+      <Text fx:id="title" layoutX="197.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome! What do you want to do next?" wrappingWidth="606.50439453125">
          <font>
             <Font name="Yu Gothic UI Light" size="35.0" />
          </font>

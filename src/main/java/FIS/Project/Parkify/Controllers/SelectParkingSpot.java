@@ -100,6 +100,7 @@ public class SelectParkingSpot {
                     Parent viewStudentsRoot = FXMLLoader.load(url);
                     Scene scene = new Scene(viewStudentsRoot, 1000, 640);
                     stage.setScene(scene);
+                    spotTable.getItems().clear();
                 }catch(IOException e){
                     e.printStackTrace();
                 }
@@ -119,6 +120,7 @@ public class SelectParkingSpot {
             Parent viewStudentsRoot = FXMLLoader.load(url);
             Scene scene = new Scene(viewStudentsRoot, 1000, 640);
             stage.setScene(scene);
+            spotTable.getItems().clear();
         }catch(IOException e){
             e.printStackTrace();
         }

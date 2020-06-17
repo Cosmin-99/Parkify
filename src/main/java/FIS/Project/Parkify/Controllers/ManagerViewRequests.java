@@ -105,6 +105,7 @@ public class ManagerViewRequests {
             String userPath = "src/main/resources/Requests/" + UserInput + ".json";
             JSONParser parser = new JSONParser();
             JSONArray requestList = new JSONArray();
+            JSONArray auxList = new JSONArray();
             try{
                 JSONArray a = (JSONArray) parser.parse(new FileReader(userPath));
 
@@ -148,6 +149,39 @@ public class ManagerViewRequests {
                 FileWriter writer = new FileWriter(userPath);
                 writer.write(requestList.toJSONString());
                 writer.flush();
+
+                String hotelPath = "src/main/resources/Data/" + HotelInput.substring(18).toLowerCase() + ".json";
+                JSONArray b = (JSONArray) parser.parse(new FileReader(hotelPath));
+                for(Object o : b){
+                    JSONObject aux = (JSONObject) o;
+                    long number = (long) aux.get("Number");
+                    long floor = (long) aux.get("Floor");
+                    String section = (String) aux.get("Section");
+                    double price = (double) aux.get("Price");
+                    String availability = (String) aux.get("Availability");
+
+                    JSONObject auxDetails = new JSONObject();
+
+                    if(number == longSpotInput){
+                        auxDetails.put("Number",number);
+                        auxDetails.put("Floor",floor);
+                        auxDetails.put("Section",section);
+                        auxDetails.put("Price",price);
+                        auxDetails.put("Availability","Occupied");
+                        auxList.add(auxDetails);
+                    } else{
+                        auxDetails.put("Number",number);
+                        auxDetails.put("Floor",floor);
+                        auxDetails.put("Section",section);
+                        auxDetails.put("Price",price);
+                        auxDetails.put("Availability",availability);
+                        auxList.add(auxDetails);
+                    }
+                }
+                System.out.println(auxList.toJSONString());
+                FileWriter hotelWriter = new FileWriter(hotelPath);
+                hotelWriter.write(auxList.toJSONString());
+                hotelWriter.flush();
 
             } catch (IOException | ParseException e){
                 e.printStackTrace();
